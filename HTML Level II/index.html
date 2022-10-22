@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Level II</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1 class="titles"><em>TABLES</em></h1>
+    <table class="table-style">
+        <!-- Head of the table -->
+        <thead>
+            <th>Head 1</th>
+            <th>Head 2</th>
+            <th>Head 3</th>
+            <th>Head 4</th>
+            <th>Head 5</th>
+        </thead>
+
+        <tbody>
+            <tr> <!-- Row 1 -->
+                <td>Item 1</td>
+                <td>Item 2</td>
+                <td>Item 3</td>
+                <td>Item 4</td>
+                <td>Item 5</td>
+            </tr>
+    
+            <tr> <!-- Row 2 -->
+                <td>Item 1</td>
+                <td>Item 2</td>
+                <td>Item 3</td>
+                <td>Item 4</td>
+                <td>Item 5</td>
+            </tr>
+    
+            <tr> <!-- Row 3 -->
+                <td>Item 1</td>
+                <td>Item 2</td>
+                <td>Item 3</td>
+                <td>Item 4</td>
+                <td>Item 5</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr class="solid">
+
+    <h1 class="titles"><em>TABLES QUIZ</em></h1>
+    <table class="table-style">
+        <!-- Head of the table -->
+        <thead>
+            <th>Country Name</th>
+            <th>Country Flag</th>
+            <th>GDP (Nillions of USD)</th>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>USA</td>
+                <td><img src="assets/usa.png" alt="USA Flag"></td>
+                <td>18,561,930</td>
+                
+                
+            </tr>
+
+            <tr>
+                <td>India</td>
+                <td><img src="assets/2361499_kingdom_uk_united_icon.png" alt="UK Flag"></td>
+                <td>2,250,990</td>
+            </tr>
+
+            <tr>
+                <td>United Kingdom</td>
+                <td><img src="assets/india.png" alt="India Flag"></td>
+                <td>2,649,890</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr class="solid">
+
+    <h1 class="titles"><em>FORMS</em></h1>
+    <form action="">
+        <h2>Log In</h2>
+        <h3>Please Input your Email and Password</h3>
+
+        <input type="email" name="useremail" placeholder="user@gmail.com">
+        <input type="password" name="userpassword" placeholder="Your Password">
+        <input type="submit" name="" placeholder="Submit">
+        <br><br>
+        <input type="color">
+        <input type="text" placeholder="Text">
+    </form>
+
+    <hr class="solid">
+
+    <h1 class="titles"><em>FORMS AND LABELS</em></h1>
+    <form action="" method="get">
+        <label for="">
+            Enter your text here:
+            <input type="text">
+        </label>
+
+        <!-- Label for -->
+        <label for="userinput">Enter input:</label>
+
+        <input id="userinput" type="text" value="" name="">
+    </form>
+
+    <hr class="solid">
+
+    <h1 class="titles"><em>FORMS AND SELECTIONS</em></h1>
+    <form method="get">
+        <h3>Are you from inside the US? Or Outside the US?</h3>
+
+        <label for="inusa">Inside: </label>
+        <input id="inusa"type="radio" name="location" value="">
+
+        <label for="outusa">Outside: </label>
+        <input id="outusa" type="radio" name="location" value="">
+
+        <h3>How was your service?</h3>
+        <label for=""></label>
+        <select name="stars" id="">
+            <option value="Great">3</option>
+            <option value="Okay">2</option>
+            <option value="Bad">1</option>
+        </select>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
